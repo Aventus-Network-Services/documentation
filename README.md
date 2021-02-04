@@ -7,6 +7,7 @@ This repo contains all technical user documentation for the Aventus Network, and
 ## AvN UI
 
 - [Overview](avn-ui.md)
+- [Page Guides](avn-ui-guides.md)
 
 ## Staking Contract
 
