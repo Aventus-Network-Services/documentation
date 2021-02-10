@@ -2,11 +2,13 @@
 
 This guide takes a user through the steps required to submit a lift transaction for ERC-20 tokens from Ethereum to the Aventus Network via the contract interface on Etherscan.
 
+You'll need custody of the full amount of tokens you want to lift in one of your Ethereum accounts, Web3 available in your browser and a small amount of ETH to send the transactions.
+
 ## Lift
 
 1. Go to the ERC-777 token contract of the token you want to lift on Etherscan, click on the 'Contract' tab, and then 'Write Contract'.
 
-> example ERC-20 token = `0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb`
+> example ERC-777 token = `0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb`
 >
 > example Etherscan page = `https://etherscan.io/address/0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb#writeContract`
 
@@ -20,6 +22,7 @@ This guide takes a user through the steps required to submit a lift transaction 
 >
 > In the `(bytes32)` field enter the public address in the Aventus Network that you'd like to lift the tokens to (if you're lifting for yourself ensure you know the private key to be able to access these tokens once lifted!). For example: `0x96072be954594e63b21737b492031c965b363e6c575016e6249b1aa64e8f1170`
 
+> Example snippet:
 > ```
 > (address) = 0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68
 > (uint256) = 1000000000000000000
