@@ -38,7 +38,7 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 
 > In the `(address)` field enter the address of the ERC-20 Token Contract you're lifting (`0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb`)
 >
-> In the `(bytes32)` field enter the new address in the Aventus Network that you'd like to lift the tokens to (if you're lifting for yourself ensure you have the private key to be able to access these tokens once lifted!)
+> In the `(bytes32)` field enter the public address in the Aventus Network that you'd like to lift the tokens to (if you're lifting for yourself ensure you know the private key to be able to access these tokens once lifted!). For example: `0x96072be954594e63b21737b492031c965b363e6c575016e6249b1aa64e8f1170`
 >
 > In the `(uint256)` field enter the amount of the token you wish to lift in Wei
 
