@@ -5,7 +5,7 @@ This guide takes a user through the steps required to submit a lift transaction 
 Prerequisites:
 - You'll need custody of the full amount of tokens you want to lift in one of your Ethereum accounts
 - Web3 available in your browser
-- and a small amount of ETH to send the transactions
+- and a small amount of ETH to send the transaction
 
 ## Lift
 
