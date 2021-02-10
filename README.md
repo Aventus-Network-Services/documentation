@@ -3,6 +3,7 @@
 This repo contains all technical user documentation for the Aventus Network, and associated products.
 
 ## Aventus Network
+- [Lift Tokens](lift-guide.md)
 
 ## AvN UI
 
