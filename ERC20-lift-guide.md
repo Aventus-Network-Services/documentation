@@ -2,9 +2,11 @@
 
 This guide takes a user through the steps required to submit a lift transaction for ERC-20 tokens from Ethereum mainnet to the Aventus Network via the contract interface on Etherscan.
 
+You'll need custody of the full amount of tokens you want to lift in one of your Ethereum accounts, Web3 available in your browser and a small amount of ETH to send the transactions.
+
 ## Approval
 
-You'll need custody of the full amount of tokens you want to lift in one of your Ethereum accounts and Web3 available in your browser. Before the lift can be submitted you first need to approve the amount to be transferred.
+Before the lift can be submitted you first need to approve the amount to be transferred.
 
 1. Go to the ERC-20 token contract of the token you want to lift on Etherscan, click on the 'Contract' tab, and then 'Write Contract'.
 
@@ -16,21 +18,23 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 
 3. Expand the '2. approve' method and enter the required parameters in the `(address)` and `(uint256)` fields.
 
-> In the `(address)` field enter the address of the AvN Contract (`0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68`) for approval
+> In the `(address)` field enter the address of the AvnFTScalingManager Contract (`0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68`) for approval
 >
 > In the `(uint256)` field enter the amount of the token you wish to lift in full Wei value (Easily get the full token value in Wei from: https://eth-converter.com/). For example: `1VOW` = `1000000000000000000`
 
 > Example snippet:
 > ```
-> guy (address) = 0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68
-> wad (uint256) = 1000000000000000000
+> (address) = 0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68
+> (uint256) = 1000000000000000000
 > ```
 
 4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success.
 
 ## Lift
 
-1. Go to [0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68](https://etherscan.io/address/0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68#writeContract)
+Now the tokens have been approved we need to visit the AvnFTScalingManager contract to start the lift.
+
+1. Go to the [AvnFTScalingManager Contract](https://etherscan.io/address/0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68#writeContract)
 
 2. Connect to Web3 with Metamask on the same account again
 
