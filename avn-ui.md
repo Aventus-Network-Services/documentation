@@ -40,21 +40,18 @@ Or alternatively connect to a remote node running in AWS here http://ec2-34-224-
 4. Click on the Save & Reload button
 5. The page should reload and you should see the full list of menu items to interact with the network. You are now connected to the boot node, which is also a validator.
 
-#### Pre-funded accounts
+#### Pre-funded account
 
-By default none of the built-in accounts will have any AVT so if you want to send transactions via polkadotjs you need to add an account with some AVT.
-There are 2 validators with 1000 AVT each and you can add them by following these steps:
+By default none of the built-in accounts will have any AVT so if you want to send transactions via polkadotjs you need to add a pre-funded account with some AVT:
 
 1. Click on the Accounts button from the left hand menu
 2. Click on the Add account button located at the top of the page
 3. Give it any name you want
-4. Use the mnemonic from one of the account JSON files in the 10-nodes/keys directory of the latest config zip
+4. Use the following mnemonic: ```angry lock jazz exist school gown twenty hobby wild local shrug section```
 5. Type in a password
 6. Leave the key pair type on Schnorrkel
 7. Leave the secret derivation path empty
 8. Save and download recovery file
-
-You can repeat these steps to add both Validator accounts if required
 
 #### Joining the network
 
