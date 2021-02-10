@@ -1,6 +1,6 @@
 # ERC-777 Token Lift
 
-This guide takes a user through the steps required to submit a lift transaction for ERC-20 tokens from Ethereum to the Aventus Network via the contract interface on Etherscan.
+This guide takes a user through the steps required to submit a lift transaction for ERC-777 tokens from Ethereum to the Aventus Network via the contract interface on Etherscan.
 
 Prerequisites:
 - You'll need custody of the full amount of tokens you want to lift in one of your Ethereum accounts
