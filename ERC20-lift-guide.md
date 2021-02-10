@@ -14,14 +14,15 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 
 2. Connect to Web3 with Metamask (or similar) on the account that will be approving the tokens.
 
-3. Expand the '2. approve' method and enter the required parameters in the `guy (address)` and `wad (uint256)` fields.
+3. Expand the '2. approve' method and enter the required parameters in the `(address)` and `(uint256)` fields.
 
-> Get the full token value in Wei from: https://eth-converter.com/
+> Enter the address of the AvN Contract for contract approval in the `(address)` field
 
+> Enter the amount `(uint256)` of the token you wish to lift in full Wei value (Easily get the full token value in Wei from: https://eth-converter.com/)
 > example: `1VOW` = `1000000000000000000`
 
 > ```
-> guy (address) = 0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb
+> guy (address) = 0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68
 > wad (uint256) = 1000000000000000000
 > ```
 
