@@ -6,9 +6,10 @@ There are multiple instances of the Aventus Network running (prod, testnet, QA, 
 
 repo - https://github.com/ArtosSystems/avn-ui
 
-## Setup
+Testnet URLs:
+- wss://avn.test.aventus.io
 
-NOTE: The testnet will have been configured with a set of data as defined by the latest zip file in this directory - eg avn_testnet_v.0.0.6.zip - use that for any settings, accounts, etc referred to here
+## Setup
 
 ### Using polkadotJS
 
@@ -36,7 +37,7 @@ Or alternatively connect to a remote node running in AWS here http://ec2-34-224-
 
 1. Click on the Settings button from the left hand menu (if its not selected by default) 
 2. Under the Developer tab copy and paste the contents (including the curly brackets) of the [custom types file](https://github.com/ArtosSystems/avn-tier2/blob/master/custom_types.json)
-3. Under the General tab enable custom endpoint and type the following url: wss://eu-west-1.avntestnet.artos.io
+3. Under the General tab enable custom endpoint and type the testnet URL: `wss://avn.test.aventus.io`
 4. Click on the Save & Reload button
 5. The page should reload and you should see the full list of menu items to interact with the network. You are now connected to the boot node, which is also a validator.
 
