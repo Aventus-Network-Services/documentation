@@ -18,13 +18,12 @@ This guide takes a user through the steps required to submit a lift transaction 
 >
 > Enter the amount of your token you wish to lift in `(uint256)` in full Wei value (Easily get the full token value in Wei from: https://eth-converter.com/) example: `1VOW` = `1000000000000000000`
 >
-> In the data `(bytes)` field enter an abi encoded AvN Public Key which is the result of: `web3.eth.abi.encodeParameter('bytes32', THE_AVN_KEY_YOU_WISH_TO_ENCODE)`
-> encoded_key example = `web3.eth.abi.encodeParameter('bytes32', '0xaaaaaaa111111111111111bbbbbbbbbbbbbbb222222222222ccccccccccccccc')`
+> In the data `(bytes)` field enter an AvN Public Key, for example: `0xda6bd9d19caa75548eb0acde9eff9fdd94b2452ead5b0daf8f73364457641748`
 
 > ```
 > (address) = 0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb
 > (uint256) = 1000000000000000000
-> (bytes) = ?????
+> (bytes) = 0xda6bd9d19caa75548eb0acde9eff9fdd94b2452ead5b0daf8f73364457641748
 > ```
 
 4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success and save the Transaction Hash.
