@@ -9,7 +9,7 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 1. Go to the ERC-20 token contract of the token you want to lift on Etherscan, click on the 'Contract' tab, and then 'Write Contract'.
 
 > example ERC-20 token = `0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb`
-
+>
 > example Etherscan page = `https://etherscan.io/address/0x1BBf25e71EC48B84d773809B4bA55B6F4bE946Fb#writeContract`
 
 2. Connect to Web3 with Metamask (or similar) on the account that will be approving the tokens.
@@ -17,7 +17,7 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 3. Expand the '2. approve' method and enter the required parameters in the `(address)` and `(uint256)` fields.
 
 > Enter the address of the AvN Contract for contract approval in the `(address)` field
-
+>
 > Enter the amount `(uint256)` of the token you wish to lift in full Wei value (Easily get the full token value in Wei from: https://eth-converter.com/)
 > example: `1VOW` = `1000000000000000000`
 
