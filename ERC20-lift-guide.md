@@ -42,4 +42,4 @@ You'll need custody of the full amount of tokens you want to lift in one of your
 > _amount (uint256) = 1000000000000000000
 > ```
 
-4. Click the 'Write' button to begin the process. aThis will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success and save the Transaction Hash
+4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success and save the Transaction Hash
