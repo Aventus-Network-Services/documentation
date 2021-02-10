@@ -28,7 +28,7 @@ Before the lift can be submitted you first need to approve the amount to be tran
 > (uint256) = 1000000000000000000
 > ```
 
-4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success.
+4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show 'Success'.
 
 ## Lift
 
@@ -44,7 +44,7 @@ Now the tokens have been approved we need to visit the AvnFTScalingManager contr
 >
 > In the `(bytes32)` field enter the public address in the Aventus Network that you'd like to lift the tokens to (if you're lifting for yourself ensure you know the private key to be able to access these tokens once lifted!). For example: `0x96072be954594e63b21737b492031c965b363e6c575016e6249b1aa64e8f1170`
 >
-> In the `(uint256)` field enter the amount of the token you wish to lift in Wei
+> In the `(uint256)` field enter the amount of the token you wish to lift in Wei as before
 
 > Example snippet:
 > ```
@@ -53,4 +53,4 @@ Now the tokens have been approved we need to visit the AvnFTScalingManager contr
 > _amount (uint256) = 1000000000000000000
 > ```
 
-4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show Success and save the Transaction Hash
+4. Click the 'Write' button to begin the process. This will trigger Metamask and ask for you to 'Approve' your transaction. Now wait for the transaction Status to show 'Success' and save the Transaction Hash
