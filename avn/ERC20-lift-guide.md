@@ -23,7 +23,7 @@ Before the lift can be submitted you first need to approve the amount to be tran
 
 > In the `(address)` field enter the address of the AvnFTScalingManager Contract (`0x1Af691Cf6d6944C53e42dAAC8395e63F46186E68`) for approval
 >
-> In the `(uint256)` field enter the amount of the token you wish to lift in full Wei value (Easily get the full token value in Wei from: https://eth-converter.com/). For example: `1VOW` = `1000000000000000000`
+> In the `(uint256)` field enter the amount of the token you wish to lift in full Wei value (Typically tokens use 18 decimal places, this conversion can be easily got from: https://eth-converter.com/) example: `1VOW` = `1000000000000000000`
 
 > Example snippet:
 > ```
