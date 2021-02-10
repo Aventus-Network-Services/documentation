@@ -3,7 +3,8 @@
 This repo contains all technical user documentation for the Aventus Network, and associated products.
 
 ## Aventus Network
-- [Lift Tokens](lift-guide.md)
+- [Lift ERC20 Tokens](ERC20-lift-guide.md)
+- [Lift ERC777 Tokens](ERC777-lift-guide.md)
 
 ## AvN UI
 
