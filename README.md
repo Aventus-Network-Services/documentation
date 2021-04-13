@@ -6,6 +6,7 @@ This repo contains all technical user documentation for the Aventus Network, and
 - [Lift ERC-20 Tokens](avn/ERC20-lift-guide.md)
 - [Lift ERC-777 Tokens](avn/ERC777-lift-guide.md)
 - [lower_data rpc endpoint](https://github.com/Aventus-Network-Services/avn-tier2/tree/master/bin/node/rpc#using-the-lower_data-rpc-endpoint)
+- [Proxy Lower ERC-20 Tokens](https://docs.google.com/document/d/1_-Ux_8YElitnHZ8_-LZkupxAejM6FpBQVhzdVjGUXRQ/edit#)
 
 ## AvN UI
 
