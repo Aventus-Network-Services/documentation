@@ -11,12 +11,10 @@ This repo contains all technical user documentation for the Aventus Network, and
 ## AvN UI
 
 - [Overview](avn-ui/avn-ui.md)
-- [Accounts]()
-- [Lift]()
-- [Transfer]()
-- [Lower]()
-- [Page Guides](avn-ui/avn-ui-guides.md)
-- [Proxy Lower ERC-20 Tokens](https://docs.google.com/document/d/1_-Ux_8YElitnHZ8_-LZkupxAejM6FpBQVhzdVjGUXRQ/edit#)
+- [Accounts](avn-ui/avn-ui-accounts.md)
+- [Lift](avn-ui/avn-ui-lift.md)
+- [Transfer](avn-ui/avn-ui-transfer.md)
+- [Lower](avn-ui/avn-ui-lower.md)
 
 ## Validator Staking
 
